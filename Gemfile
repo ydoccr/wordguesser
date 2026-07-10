@@ -1,4 +1,9 @@
 source 'https://rubygems.org'
-ruby '3.3.8'
+ruby '2.6.6'
 
 gem 'sinatra', '>= 2.0.1'
+
+group :development do
+  gem 'rerun'
+  gem 'ffi', '<1.17'
+end
